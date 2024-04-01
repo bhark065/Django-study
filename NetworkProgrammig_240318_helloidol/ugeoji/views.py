@@ -2,23 +2,23 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def show_seoyoung(request) :
-    # return render(request, 'ugeoji/seoyoung.html')
-    # context = group_context['members'][0]
-    context = list(filter(lambda member : '이서영' in member['name'], group_context['members']))[0]
-    return render(request, 'ugeoji/member.html', context=context)
-
-def show_haewon(request) :
-    # return render(request, 'ugeoji/haewon.html')
-    # context = group_context['members'][1]
-    context = list(filter(lambda member: '이해원' in member['name'], group_context['members']))[1]
-    return render(request, 'ugeoji/member.html', context=context)
-
-def show_seohyeon(request) :
-    # return render(request, 'ugeoji/seohyeon.html')
-    # context = group_context['members'][2]
-    context = list(filter(lambda member: '조서현' in member['name'], group_context['members']))[2]
-    return render(request, 'ugeoji/member.html', context=context)
+# def show_seoyoung(request) :
+#     # return render(request, 'ugeoji/seoyoung.html')
+#     # context = group_context['members'][0]
+#     context = list(filter(lambda member : '이서영' in member['name'], group_context['members']))[0]
+#     return render(request, 'ugeoji/member.html', context=context)
+#
+# def show_haewon(request) :
+#     # return render(request, 'ugeoji/haewon.html')
+#     # context = group_context['members'][1]
+#     context = list(filter(lambda member: '이해원' in member['name'], group_context['members']))[1]
+#     return render(request, 'ugeoji/member.html', context=context)
+#
+# def show_seohyeon(request) :
+#     # return render(request, 'ugeoji/seohyeon.html')
+#     # context = group_context['members'][2]
+#     context = list(filter(lambda member: '조서현' in member['name'], group_context['members']))[2]
+#     return render(request, 'ugeoji/member.html', context=context)
 
 def show_멤버(request, 멤버):
     context = list(filter(lambda member: 멤버 in member['name'], group_context['members']))[0]
