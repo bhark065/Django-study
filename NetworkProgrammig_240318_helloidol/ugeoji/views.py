@@ -20,6 +20,10 @@ def show_seohyeon(request) :
     context = list(filter(lambda member: '조서현' in member['name'], group_context['members']))[2]
     return render(request, 'ugeoji/member.html', context=context)
 
+def show_멤버(request, 멤버):
+    context = list(filter(lambda member: 멤버 in member['name'], group_context['members']))[0]
+    return render(request, 'ugeoji/멤버.html', context=context)
+
 group_context = {
     'members' : [
 
