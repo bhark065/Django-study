@@ -42,6 +42,7 @@
       2. show_해원()
       3. show_서현()
       4. -> templates에 context 전달
+      5. 정보를 하나로 묶고, 거기에서 꺼내오자
    2. templates/우거지/
       1. ~~서영.html~~
          1. title : 우거지 - 서영
