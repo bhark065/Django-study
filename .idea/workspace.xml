@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7fb25ab3-0202-4219-9a4e-616f1be913bb" name="Changes" comment="startapp 세븐틴&#10;views show_원우(), show_디에잇&#10;templates 원우.html, 디에잇.html&#10;urls 세븐틴/ -&gt; 원우/ -&gt; show_원우">
+      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2dqIsoFyY8PfPzXaXlOO1IBpV1n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/3413/Django-study/NetworkProgramming_240314_helloworld",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fb25ab3-0202-4219-9a4e-616f1be913bb" name="Changes" comment="" />
+      <created>1710729391011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710729391011</updated>
+      <workItem from="1710729392213" duration="820000" />
+      <workItem from="1710731633182" duration="65000" />
+      <workItem from="1710731816972" duration="77000" />
+      <workItem from="1710998424660" duration="438000" />
+      <workItem from="1711000320565" duration="86000" />
+      <workItem from="1711000684904" duration="154000" />
+      <workItem from="1711000845850" duration="754000" />
+      <workItem from="1711002502059" duration="26000" />
+      <workItem from="1711002540499" duration="65000" />
+      <workItem from="1711002618188" duration="1733000" />
+      <workItem from="1711329929852" duration="2266000" />
+      <workItem from="1711333994613" duration="20000" />
+      <workItem from="1711335993156" duration="645000" />
+      <workItem from="1711604032218" duration="1539000" />
+      <workItem from="1711706095152" duration="336000" />
+      <workItem from="1711934739487" duration="614000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1710730016142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710730016142</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <option name="closed" value="true" />
+      <created>1710730050758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710730050758</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <option name="closed" value="true" />
+      <created>1710730162376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710730162376</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit">
+      <option name="closed" value="true" />
+      <created>1711000969002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711000969002</updated>
+    </task>
+    <task id="LOCAL-00005" summary="views say_hello()">
+      <option name="closed" value="true" />
+      <created>1711002837360</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711002837360</updated>
+    </task>
+    <task id="LOCAL-00006" summary="urls playground/hello/ -&gt; views say_hello()">
+      <option name="closed" value="true" />
+      <created>1711003793936</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711003793936</updated>
+    </task>
+    <task id="LOCAL-00007" summary="urls playground/hello/ -&gt; views say_hello()">
+      <option name="closed" value="true" />
+      <created>1711003934560</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711003934560</updated>
+    </task>
+    <task id="LOCAL-00008" summary="urls, views, templates, playground/hello_html/ -&gt; say_hello_html() -&gt; hello.html">
+      <option name="closed" value="true" />
+      <created>1711005034168</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711005034168</updated>
+    </task>
+    <task id="LOCAL-00009" summary="playground/hello/ =&gt; playground/ -&gt; hello/, playground/hello_html =&gt; playground/ -&gt; hello_html/">
+      <option name="closed" value="true" />
+      <created>1711332484930</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711332484930</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add templates/playground/hello.html">
+      <option name="closed" value="true" />
+      <created>1711332633659</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711332633659</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2024.03.25">
+      <option name="closed" value="true" />
+      <created>1711336016903</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711336016903</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2024.03.25">
+      <option name="closed" value="true" />
+      <created>1711336608967</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711336608967</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2024.03.25">
+      <option name="closed" value="true" />
+      <created>1711336623826</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711336623826</updated>
+    </task>
+    <task id="LOCAL-00014" summary="우거지 프로필 만들기">
+      <option name="closed" value="true" />
+      <created>1711608117313</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711608117313</updated>
+    </task>
+    <task id="LOCAL-00015" summary="우거지 프로필 만들기">
+      <option name="closed" value="true" />
+      <created>1711608213932</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711608213932</updated>
+    </task>
+    <task id="LOCAL-00016" summary="startapp 세븐틴&#10;views show_원우(), show_디에잇&#10;templates 원우.html, 디에잇.html&#10;urls 세븐틴/ -&gt; 원우/ -&gt; show_원우">
+      <option name="closed" value="true" />
+      <created>1711609664581</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711609664581</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="NetworkProgramming" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="views say_hello()" />
+    <MESSAGE value="urls playground/hello/ -&gt; views say_hello()" />
+    <MESSAGE value="urls, views, templates, playground/hello_html/ -&gt; say_hello_html() -&gt; hello.html" />
+    <MESSAGE value="playground/hello/ =&gt; playground/ -&gt; hello/, playground/hello_html =&gt; playground/ -&gt; hello_html/" />
+    <MESSAGE value="add templates/playground/hello.html" />
+    <MESSAGE value="2024.03.25" />
+    <MESSAGE value="우거지 프로필 만들기" />
+    <MESSAGE value="startapp 세븐틴&#10;views show_원우(), show_디에잇&#10;templates 원우.html, 디에잇.html&#10;urls 세븐틴/ -&gt; 원우/ -&gt; show_원우" />
+    <option name="LAST_COMMIT_MESSAGE" value="startapp 세븐틴&#10;views show_원우(), show_디에잇&#10;templates 원우.html, 디에잇.html&#10;urls 세븐틴/ -&gt; 원우/ -&gt; show_원우" />
+  </component>
+</project>

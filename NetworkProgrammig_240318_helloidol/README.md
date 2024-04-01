@@ -41,25 +41,28 @@
       1. show_서영()
       2. show_해원()
       3. show_서현()
+      4. -> templates에 context 전달
    2. templates/우거지/
-      1. 서영.html
+      1. ~~서영.html~~
          1. title : 우거지 - 서영
          2. h1 : 우거지
          3. h2 : 서영
          4. img : 서영 프로필 사진
             1. border-radius : 50%;
-      2. 해원.html
+      2. ~~해원.html~~
          1. title : 우거지 - 해원
          2. h1 : 우거지
          3. h2 : 해원
          4. img : 해원 프로필 사진
             1. border-radius : 50%;
-      3. 서현.html
+      3. ~~서현.html~~
          1. title : 우거지 - 서현
          2. h1 : 우거지
          3. h2 : 서현
          4. img : 서현 프로필 사진
             1. border-radius : 50%;
+      4. 멤버.html
+         1. group_name, name, img_src
    3. urls
       1. 우거지/ -> 서영 / -> show_서영()
       2. 우거지/ -> 해원 / -> show_해원()
