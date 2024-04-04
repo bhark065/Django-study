@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fb25ab3-0202-4219-9a4e-616f1be913bb" name="Changes" comment="startapp 세븐틴&#10;views show_원우(), show_디에잇&#10;templates 원우.html, 디에잇.html&#10;urls 세븐틴/ -&gt; 원우/ -&gt; show_원우">
+    <list default="true" id="7fb25ab3-0202-4219-9a4e-616f1be913bb" name="Changes" comment="이미지 추가, 리드미 내용 추가">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/static/images/이서영.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/static/images/이해원.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/static/images/조서현.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/templates/ugeoji/멤버.html" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/templates/ugeoji/멤버.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,9 +37,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/3413/Django-study/NetworkProgramming_240314_helloworld",
+    "last_opened_file_path": "D:/3413/Django-study",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +78,9 @@
       <workItem from="1711335993156" duration="645000" />
       <workItem from="1711604032218" duration="1539000" />
       <workItem from="1711706095152" duration="336000" />
-      <workItem from="1711934739487" duration="614000" />
+      <workItem from="1711934739487" duration="3044000" />
+      <workItem from="1711940766094" duration="15000" />
+      <workItem from="1712207721869" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -204,7 +210,55 @@
       <option name="project" value="LOCAL" />
       <updated>1711609664581</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="templates에 context전달 -&gt; member.html">
+      <option name="closed" value="true" />
+      <created>1711936913469</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711936913469</updated>
+    </task>
+    <task id="LOCAL-00018" summary="templates에 context전달 -&gt; member.html">
+      <option name="closed" value="true" />
+      <created>1711936924470</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711936924470</updated>
+    </task>
+    <task id="LOCAL-00019" summary="정보를 하나로 묶어서 꺼내오자">
+      <option name="closed" value="true" />
+      <created>1711937991582</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711937991582</updated>
+    </task>
+    <task id="LOCAL-00020" summary="urls, views 우거지/ -&gt; &lt;멤버&gt;/ -&gt; show_멤버(멤버)(context -&gt;) -&gt; 멤버.html">
+      <option name="closed" value="true" />
+      <created>1711939855587</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711939855587</updated>
+    </task>
+    <task id="LOCAL-00021" summary="urls, views 우거지/ -&gt; &lt;멤버&gt;/ -&gt; show_멤버(멤버)(context -&gt;) -&gt; 멤버.html">
+      <option name="closed" value="true" />
+      <created>1711939895319</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711939895319</updated>
+    </task>
+    <task id="LOCAL-00022" summary="이미지 추가, 리드미 내용 추가">
+      <option name="closed" value="true" />
+      <created>1711940629902</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711940629902</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +286,11 @@
     <MESSAGE value="2024.03.25" />
     <MESSAGE value="우거지 프로필 만들기" />
     <MESSAGE value="startapp 세븐틴&#10;views show_원우(), show_디에잇&#10;templates 원우.html, 디에잇.html&#10;urls 세븐틴/ -&gt; 원우/ -&gt; show_원우" />
-    <option name="LAST_COMMIT_MESSAGE" value="startapp 세븐틴&#10;views show_원우(), show_디에잇&#10;templates 원우.html, 디에잇.html&#10;urls 세븐틴/ -&gt; 원우/ -&gt; show_원우" />
+    <MESSAGE value="init" />
+    <MESSAGE value="templates에 context전달 -&gt; member.html" />
+    <MESSAGE value="정보를 하나로 묶어서 꺼내오자" />
+    <MESSAGE value="urls, views 우거지/ -&gt; &lt;멤버&gt;/ -&gt; show_멤버(멤버)(context -&gt;) -&gt; 멤버.html" />
+    <MESSAGE value="이미지 추가, 리드미 내용 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="이미지 추가, 리드미 내용 추가" />
   </component>
 </project>

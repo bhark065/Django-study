@@ -45,7 +45,7 @@
       5. 정보를 하나로 묶고, 거기에서 꺼내오자
       6. show_멤버()
       7. image link -> image file(static)
-      8. {%  load static %} <img src="{%  static img_src %}">
+      8. `{%  load static %} <img src="{% static img_src %}">`
    2. templates/우거지/
       1. ~~서영.html~~
          1. title : 우거지 - 서영
@@ -72,3 +72,5 @@
       2. ~~우거지/ -> 해원 / -> show_해원()~~
       3. ~~우거지/ -> 서현 / -> show_서현()~~
       4. 우거지/ -> <멤버>/ -> show_멤버(멤버이름)
+   4. static/ugeoji/images/
+      1. 이서영.jpg, 이해원.jpg, 조서현.jpg
