@@ -24,6 +24,10 @@ def show_멤버(request, 멤버):
     context = list(filter(lambda member: 멤버 in member['name'], group_context['members']))[0]
     return render(request, 'ugeoji/멤버.html', context=context)
 
+def show_멤버리스트(request):
+    context = group_context  # { 'members' : [ {'멤버1'}, {'멤버2'}, {'멤버3'} ] }
+    return render(request, 'ugeoji/멤버리스트.html', context=context)
+
 group_context = {
     'members' : [
 
