@@ -28,7 +28,8 @@
                 <td> <a href="../{{ member.name }}">{{ member.name }}</a> </td>
                 <td> <a href="../../ugeoji/{{ member.name }}">{{ member.name }}</a> </td>
                 <td> <a href="/ugeoji/{{ member.name }}/">{{ member.name }}</a> </td>
-                <td> <a href="">{{ member.name }}</a> </td>
+                <td> <a href="{% url 'ugeoji:멤버' 멤버=member.name %}">{{ member.name }}</a> </td>
+
                 <td>
                     <p style="text-align: center">{{ member.nick_name }}</p>
                     {% load static %} <img src="{% static member.img_src %}" style="width: 150px; height: 150px; border-radius: 50%">
