@@ -21,3 +21,5 @@
       2. python manage.py createuperuser
    3. views
       1. R: CharacterListView
+   4. templates/로보카폴리/
+      1. character_list.html
