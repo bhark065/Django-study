@@ -19,3 +19,5 @@
    2. admin
       1. Character
       2. python manage.py createuperuser
+   3. views
+      1. R: CharacterListView
