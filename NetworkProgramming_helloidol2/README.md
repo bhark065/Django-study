@@ -23,3 +23,5 @@
       1. R: CharacterListView
    4. templates/로보카폴리/
       1. character_list.html
+   5. urls
+      1. 로보카폴리:character_list
