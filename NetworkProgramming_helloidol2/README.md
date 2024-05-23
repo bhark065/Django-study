@@ -18,10 +18,14 @@
       3. python manage.py migrate 로보카폴리
    2. admin
       1. Character
-      2. python manage.py createuperuser
+      2. python manage.py createsuperuser
    3. views
       1. R: CharacterListView
    4. templates/로보카폴리/
       1. character_list.html
    5. urls
       1. 로보카폴리:character_list
+4. templates/
+   1. base.html
+      1. settings.py > TEMPLATES
+         1. 'DIRS': [BASE_DIR / 'templates']

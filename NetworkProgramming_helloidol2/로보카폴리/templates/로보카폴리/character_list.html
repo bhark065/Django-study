@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Character_List</title>
-</head>
-<body>
-    <table border="1">
+{% extends 'base.html' %}
+
+{% block title %}Character_List{% endblock %}
+
+{% block content %}
+    <table class="table table-striped">
         <tr>
             <th>#</th>
             <th>name</th>
@@ -20,5 +18,4 @@
         </tr>
         {% endfor %}
     </table>
-</body>
-</html>
+{% endblock %}
