@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Character_Detail{% endblock %}
+
+{% block content %}
+    <h1>{{ character.name }}</h1>
+    <ul>
+        <li>{{ character.feature }}</li>
+        <li>{{ character.created_at }}</li>
+        <li>{{ character.updated_at }}</li>
+    </ul>
+    <a href="{% url '로보카폴리:character_list' %}">Character List Go~</a>
+{% endblock %}

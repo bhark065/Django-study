@@ -13,7 +13,7 @@
         {% for character in character_list %}
         <tr>
             <td>{{ forloop.counter }}</td>
-            <td>{{ character.name }}</td>
+            <td> <a href="{% url '로보카폴리:character_detail' pk=character.id %}" style="text-decoration: none; color: black">{{ character.name }}</a> </td>
             <td>{{ character.feature }}</td>
         </tr>
         {% endfor %}
