@@ -8,7 +8,8 @@
             <th>#</th>
             <th>name</th>
             <th>Feature</th>
-            <th>edit</th>
+            <th>Edit</th>
+            <th>Delete</th>
         </tr>
 
         {% for character in character_list %}
@@ -16,11 +17,12 @@
             <td>{{ forloop.counter }}</td>
             <td> <a href="{% url '로보카폴리:character_detail' pk=character.id %}" style="text-decoration: none; color: black">{{ character.name }}</a> </td>
             <td>{{ character.feature }}</td>
-            <td> <a href="{% url '로보카폴리:character_update' pk=character.id %}" class="btn btn-warning">✏️</a> ️</td>
+            <td> <a href="{% url '로보카폴리:character_update' pk=character.id %}" class="btn btn-warning">🛠️️</a> ️</td>
+            <td> <a href="{% url '로보카폴리:character_delete' pk=character.id %}" class="btn btn-danger">✖️️</a> ️</td>
         </tr>
         {% endfor %}
         <tr>
-            <td colspan="3">
+            <td colspan="5">
                 <a href="{% url '로보카폴리:character_create' %}" class="btn btn-success">+ Add Character</a>
             </td>
         </tr>

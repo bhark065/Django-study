@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Character_Delete{% endblock %}
+
+{% block content %}
+    <form action="" method="post">
+        {% csrf_token %}
+        <div class="alert alert-danger">
+            {{ character }}
+            <br>
+            진짜 지운다?ㅋㅋㅋ
+        </div>
+        <input type="submit" value="✖️️ Character" class="btn btn-danger">
+        <input type="button" value="취소" class="btn btn-light" onclick="history.back();">
+    </form>
+{% endblock %}
