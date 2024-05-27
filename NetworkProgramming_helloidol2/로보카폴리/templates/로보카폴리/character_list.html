@@ -17,5 +17,8 @@
             <td>{{ character.feature }}</td>
         </tr>
         {% endfor %}
+        <tr>
+            <td colspan="3">  <a href="{% url '로보카폴리:character_create' %}" class="btn btn-success">+ Add Character</a> </td>
+        </tr>
     </table>
 {% endblock %}

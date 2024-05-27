@@ -7,4 +7,5 @@ app_name = '로보카폴리'
 urlpatterns = [
     path('', views.CharacterListView.as_view(), name='character_list'),
     path('detail/<int:pk>/', views.CharacterListDetail.as_view(), name='character_detail'),
+    path('create/', views.CharacterCreateView.as_view(), name='character_create'),
 ]
