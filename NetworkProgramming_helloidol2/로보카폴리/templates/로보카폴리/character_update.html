@@ -3,7 +3,7 @@
 {% block title %}Character_Update{% endblock %}
 
 {% block content %}
-    <form action="" method="post">
+    <form action="" method="post" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form.as_ul }}
         <input type="submit" value="🛠️ Character" class="btn btn-warning">

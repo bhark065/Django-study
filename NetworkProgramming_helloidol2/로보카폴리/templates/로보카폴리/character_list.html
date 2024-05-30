@@ -1,30 +1,42 @@
 {% extends 'base.html' %}
-
-{% block title %}Character_List{% endblock %}
-
+{% block title %}Character List{% endblock %}
 {% block content %}
-    <table class="table table-striped">
-        <tr>
-            <th>#</th>
-            <th>name</th>
-            <th>Feature</th>
-            <th>Edit</th>
-            <th>Delete</th>
-        </tr>
-
-        {% for character in character_list %}
-        <tr>
-            <td>{{ forloop.counter }}</td>
-            <td> <a href="{% url '로보카폴리:character_detail' pk=character.id %}" style="text-decoration: none; color: black">{{ character.name }}</a> </td>
-            <td>{{ character.feature }}</td>
-            <td> <a href="{% url '로보카폴리:character_update' pk=character.id %}" class="btn btn-warning">🛠️️</a> ️</td>
-            <td> <a href="{% url '로보카폴리:character_delete' pk=character.id %}" class="btn btn-danger">✖️️</a> ️</td>
-        </tr>
-        {% endfor %}
-        <tr>
-            <td colspan="5">
-                <a href="{% url '로보카폴리:character_create' %}" class="btn btn-success">+ Add Character</a>
-            </td>
-        </tr>
-    </table>
+    <div>
+        <table class="table table-hover">
+            <tr>
+                <th>#</th>
+                <th>photo</th>
+                <th>name</th>
+                <th>feature</th>
+                <th>edit</th>
+                <th>delete</th>
+            </tr>
+            {% for character in character_list %}
+                <tr>
+                    <td>{{ forloop.counter }}</td>
+                    <td>
+                        {% if character.photo == None %}
+                            {% load static %}
+                            <img src="{% static '로보카폴리/photo/noPhoto.png' %}" alt="사진 없음" style="width: 100px; height: 100px; object-fit: contain">
+                        {% else %}
+                            <img src="{{ character.photo.url }}" alt="프로필 사진" style="width: 100px; height: 100px; object-fit: contain">
+                        {% endif %}
+                    </td>
+                    <td><a href="{% url '로보카폴리:character_detail' pk=character.id %}">{{ character.name }}</a></td>
+                    <td>{{ character.feature }}</td>
+                    <td>
+                        <a href="{% url '로보카폴리:character_update' pk=character.id %}" class="btn btn-warning">⚒️</a>
+                    </td>
+                    <td>
+                        <a href="{% url '로보카폴리:character_delete' pk=character.id %}" class="btn btn-danger">💣</a>
+                    </td>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td colspan="6">
+                    <a href="{% url '로보카폴리:character_create' %}" class="btn btn-success">+ Character</a>
+                </td>
+            </tr>
+        </table>
+    </div>
 {% endblock %}

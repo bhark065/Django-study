@@ -6,6 +6,7 @@ from django.shortcuts import resolve_url
 class Character(models.Model):
     name = models.CharField(max_length=20)                  # CharField()는 max_length 필수
     feature = models.CharField(max_length=100)
+    photo = models.ImageField(upload_to='photo/%Y/%m/%d/', null=True)
     created_at = models.DateTimeField(auto_now_add=True)    # 데이터 만들어질 때 자동으로 날짜, 시간 기록
     updated_at = models.DateTimeField(auto_now=True)        # 데이터 수정할 때 자동으로 날짜, 시간 기록
 
