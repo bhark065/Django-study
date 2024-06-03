@@ -1,0 +1,132 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7fb25ab3-0202-4219-9a4e-616f1be913bb\" name=\"Changes\" comment=\"이미지 추가, 리드미 내용 추가\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/README.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/README.md\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/static/images/이서영.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/static/images/이해원.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/static/images/조서현.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/templates/ugeoji/멤버.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/templates/ugeoji/멤버.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/views.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/views.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;customColor&quot;: &quot;&quot;,\r\n  &quot;associatedIndex&quot;: 8\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2dqIsoFyY8PfPzXaXlOO1IBpV1n\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"last_opened_file_path\": \"D:/3413/Django-study\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"terminal\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7fb25ab3-0202-4219-9a4e-616f1be913bb\" name=\"Changes\" comment=\"\" />\r\n      <created>1710729391011</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1710729391011</updated>\r\n      <workItem from=\"1710729392213\" duration=\"820000\" />\r\n      <workItem from=\"1710731633182\" duration=\"65000\" />\r\n      <workItem from=\"1710731816972\" duration=\"77000\" />\r\n      <workItem from=\"1710998424660\" duration=\"438000\" />\r\n      <workItem from=\"1711000320565\" duration=\"86000\" />\r\n      <workItem from=\"1711000684904\" duration=\"154000\" />\r\n      <workItem from=\"1711000845850\" duration=\"754000\" />\r\n      <workItem from=\"1711002502059\" duration=\"26000\" />\r\n      <workItem from=\"1711002540499\" duration=\"65000\" />\r\n      <workItem from=\"1711002618188\" duration=\"1733000\" />\r\n      <workItem from=\"1711329929852\" duration=\"2266000\" />\r\n      <workItem from=\"1711333994613\" duration=\"20000\" />\r\n      <workItem from=\"1711335993156\" duration=\"645000\" />\r\n      <workItem from=\"1711604032218\" duration=\"1539000\" />\r\n      <workItem from=\"1711706095152\" duration=\"336000\" />\r\n      <workItem from=\"1711934739487\" duration=\"3044000\" />\r\n      <workItem from=\"1711940766094\" duration=\"15000\" />\r\n      <workItem from=\"1712207721869\" duration=\"614000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710730016142</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710730016142</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710730050758</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710730050758</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710730162376</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710730162376</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711000969002</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711000969002</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"views say_hello()\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711002837360</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711002837360</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"urls playground/hello/ -&gt; views say_hello()\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711003793936</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711003793936</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"urls playground/hello/ -&gt; views say_hello()\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711003934560</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711003934560</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"urls, views, templates, playground/hello_html/ -&gt; say_hello_html() -&gt; hello.html\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711005034168</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711005034168</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"playground/hello/ =&gt; playground/ -&gt; hello/, playground/hello_html =&gt; playground/ -&gt; hello_html/\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711332484930</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711332484930</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"add templates/playground/hello.html\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711332633659</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711332633659</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"2024.03.25\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711336016903</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711336016903</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"2024.03.25\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711336608967</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711336608967</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"2024.03.25\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711336623826</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711336623826</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"우거지 프로필 만들기\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711608117313</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711608117313</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"우거지 프로필 만들기\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711608213932</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711608213932</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"startapp 세븐틴&#10;views show_원우(), show_디에잇&#10;templates 원우.html, 디에잇.html&#10;urls 세븐틴/ -&gt; 원우/ -&gt; show_원우\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711609664581</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711609664581</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"templates에 context전달 -&gt; member.html\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711936913469</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711936913469</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"templates에 context전달 -&gt; member.html\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711936924470</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711936924470</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"정보를 하나로 묶어서 꺼내오자\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711937991582</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711937991582</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"urls, views 우거지/ -&gt; &lt;멤버&gt;/ -&gt; show_멤버(멤버)(context -&gt;) -&gt; 멤버.html\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711939855587</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711939855587</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"urls, views 우거지/ -&gt; &lt;멤버&gt;/ -&gt; show_멤버(멤버)(context -&gt;) -&gt; 멤버.html\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711939895319</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711939895319</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00022\" summary=\"이미지 추가, 리드미 내용 추가\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711940629902</created>\r\n      <option name=\"number\" value=\"00022\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711940629902</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"23\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"NetworkProgramming\" />\r\n    <MESSAGE value=\"commit\" />\r\n    <MESSAGE value=\"views say_hello()\" />\r\n    <MESSAGE value=\"urls playground/hello/ -&gt; views say_hello()\" />\r\n    <MESSAGE value=\"urls, views, templates, playground/hello_html/ -&gt; say_hello_html() -&gt; hello.html\" />\r\n    <MESSAGE value=\"playground/hello/ =&gt; playground/ -&gt; hello/, playground/hello_html =&gt; playground/ -&gt; hello_html/\" />\r\n    <MESSAGE value=\"add templates/playground/hello.html\" />\r\n    <MESSAGE value=\"2024.03.25\" />\r\n    <MESSAGE value=\"우거지 프로필 만들기\" />\r\n    <MESSAGE value=\"startapp 세븐틴&#10;views show_원우(), show_디에잇&#10;templates 원우.html, 디에잇.html&#10;urls 세븐틴/ -&gt; 원우/ -&gt; show_원우\" />\r\n    <MESSAGE value=\"init\" />\r\n    <MESSAGE value=\"templates에 context전달 -&gt; member.html\" />\r\n    <MESSAGE value=\"정보를 하나로 묶어서 꺼내오자\" />\r\n    <MESSAGE value=\"urls, views 우거지/ -&gt; &lt;멤버&gt;/ -&gt; show_멤버(멤버)(context -&gt;) -&gt; 멤버.html\" />\r\n    <MESSAGE value=\"이미지 추가, 리드미 내용 추가\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"이미지 추가, 리드미 내용 추가\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 0e52259df0d272e5f262e83c1cba7441a1cc33d7)
++++ b/.idea/workspace.xml	(date 1715566532245)
+@@ -4,14 +4,18 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="7fb25ab3-0202-4219-9a4e-616f1be913bb" name="Changes" comment="이미지 추가, 리드미 내용 추가">
++    <list default="true" id="7fb25ab3-0202-4219-9a4e-616f1be913bb" name="Changes" comment="네트워크 프로그래밍 helloidol2 실습♥️🎧">
++      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/db.sqlite3" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/로보카폴리/__init__.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/로보카폴리/admin.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/로보카폴리/apps.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/로보카폴리/migrations/__init__.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/로보카폴리/models.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/로보카폴리/tests.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/로보카폴리/views.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/README.md" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/static/images/이서영.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/static/images/이해원.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/static/images/조서현.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/templates/ugeoji/멤버.html" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/templates/ugeoji/멤버.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/views.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/NetworkProgramming_helloidol2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/README.md" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/NetworkProgramming_helloidol2/helloidol2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/helloidol2/settings.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -80,7 +84,12 @@
+       <workItem from="1711706095152" duration="336000" />
+       <workItem from="1711934739487" duration="3044000" />
+       <workItem from="1711940766094" duration="15000" />
+-      <workItem from="1712207721869" duration="614000" />
++      <workItem from="1712207721869" duration="2633000" />
++      <workItem from="1712539468378" duration="1968000" />
++      <workItem from="1712544928024" duration="603000" />
++      <workItem from="1713144768184" duration="673000" />
++      <workItem from="1714899822227" duration="124000" />
++      <workItem from="1715565810709" duration="720000" />
+     </task>
+     <task id="LOCAL-00001" summary="commit">
+       <option name="closed" value="true" />
+@@ -258,7 +267,63 @@
+       <option name="project" value="LOCAL" />
+       <updated>1711940629902</updated>
+     </task>
+-    <option name="localTasksCounter" value="23" />
++    <task id="LOCAL-00023" summary="views, templates, static file(image, css, js, ...)">
++      <option name="closed" value="true" />
++      <created>1712209789326</created>
++      <option name="number" value="00023" />
++      <option name="presentableId" value="LOCAL-00023" />
++      <option name="project" value="LOCAL" />
++      <updated>1712209789326</updated>
++    </task>
++    <task id="LOCAL-00024" summary="views, 멤버리스트.html, urls">
++      <option name="closed" value="true" />
++      <created>1712213171697</created>
++      <option name="number" value="00024" />
++      <option name="presentableId" value="LOCAL-00024" />
++      <option name="project" value="LOCAL" />
++      <updated>1712213171697</updated>
++    </task>
++    <task id="LOCAL-00025" summary="views, 멤버리스트.html, urls">
++      <option name="closed" value="true" />
++      <created>1712213176950</created>
++      <option name="number" value="00025" />
++      <option name="presentableId" value="LOCAL-00025" />
++      <option name="project" value="LOCAL" />
++      <updated>1712213176950</updated>
++    </task>
++    <task id="LOCAL-00026" summary="Add link to detail page">
++      <option name="closed" value="true" />
++      <created>1712214580556</created>
++      <option name="number" value="00026" />
++      <option name="presentableId" value="LOCAL-00026" />
++      <option name="project" value="LOCAL" />
++      <updated>1712214580556</updated>
++    </task>
++    <task id="LOCAL-00027" summary="Add django url">
++      <option name="closed" value="true" />
++      <created>1712541462815</created>
++      <option name="number" value="00027" />
++      <option name="presentableId" value="LOCAL-00027" />
++      <option name="project" value="LOCAL" />
++      <updated>1712541462815</updated>
++    </task>
++    <task id="LOCAL-00028" summary="base.html {% block title %}, {% block css %}, {% block content %}, TEMPLATES 'DIRS' : [BASE_DIR / 'templates'], Apply Bootstrap">
++      <option name="closed" value="true" />
++      <created>1712544842938</created>
++      <option name="number" value="00028" />
++      <option name="presentableId" value="LOCAL-00028" />
++      <option name="project" value="LOCAL" />
++      <updated>1712544842938</updated>
++    </task>
++    <task id="LOCAL-00029" summary="네트워크 프로그래밍 helloidol2 실습♥️🎧">
++      <option name="closed" value="true" />
++      <created>1715565997864</created>
++      <option name="number" value="00029" />
++      <option name="presentableId" value="LOCAL-00029" />
++      <option name="project" value="LOCAL" />
++      <updated>1715565997864</updated>
++    </task>
++    <option name="localTasksCounter" value="30" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -291,6 +356,12 @@
+     <MESSAGE value="정보를 하나로 묶어서 꺼내오자" />
+     <MESSAGE value="urls, views 우거지/ -&gt; &lt;멤버&gt;/ -&gt; show_멤버(멤버)(context -&gt;) -&gt; 멤버.html" />
+     <MESSAGE value="이미지 추가, 리드미 내용 추가" />
+-    <option name="LAST_COMMIT_MESSAGE" value="이미지 추가, 리드미 내용 추가" />
++    <MESSAGE value="views, templates, static file(image, css, js, ...)" />
++    <MESSAGE value="views, 멤버리스트.html, urls" />
++    <MESSAGE value="Add link to detail page" />
++    <MESSAGE value="Add django url" />
++    <MESSAGE value="base.html {% block title %}, {% block css %}, {% block content %}, TEMPLATES 'DIRS' : [BASE_DIR / 'templates'], Apply Bootstrap" />
++    <MESSAGE value="네트워크 프로그래밍 helloidol2 실습♥️" />
++    <option name="LAST_COMMIT_MESSAGE" value="네트워크 프로그래밍 helloidol2 실습♥️" />
+   </component>
+ </project>
+\ No newline at end of file
+diff --git a/NetworkProgramming_helloidol2/db.sqlite3 b/NetworkProgramming_helloidol2/db.sqlite3
+new file mode 100644

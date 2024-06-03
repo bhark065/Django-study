@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fb25ab3-0202-4219-9a4e-616f1be913bb" name="Changes" comment="이미지 추가, 리드미 내용 추가">
+    <list default="true" id="7fb25ab3-0202-4219-9a4e-616f1be913bb" name="Changes" comment="models photo; views CharacterCreateView, CharacterUpdateView add 'photo' in fields; templates, enctype=&quot;multipart/form-data&quot;, character.photo None이 아니면, {{ character.photo.url }}; urls MEDIA_URL -&gt; MEDIA_ROOT">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/.idea/NetworkProgramming_helloidol2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/media/photo/2024/05/30/로이.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/media/photo/2024/05/30/로이_lmEbzYM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/media/photo/2024/05/30/폴리.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/media/photo/2024/05/30/폴리_cmHdBrs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/media/photo/2024/05/30/폴리_r2AI9YN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/로보카폴리/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkProgramming_helloidol2/로보카폴리/migrations/0002_character_photo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/static/images/이서영.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/static/images/이해원.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/static/images/조서현.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/templates/ugeoji/멤버.html" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/templates/ugeoji/멤버.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkProgrammig_240318_helloidol/ugeoji/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,27 +45,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/3413/Django-study",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/3413/Django-study&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
         <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
       </set>
     </attachedChunks>
+  </component>
+  <component name="ShelveChangesManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,6 +98,12 @@
       <workItem from="1711934739487" duration="3044000" />
       <workItem from="1711940766094" duration="15000" />
       <workItem from="1712207721869" duration="614000" />
+      <workItem from="1715744263037" duration="3000" />
+      <workItem from="1716174261624" duration="621000" />
+      <workItem from="1716444415596" duration="2064000" />
+      <workItem from="1716775170986" duration="2533000" />
+      <workItem from="1717051534970" duration="1172000" />
+      <workItem from="1717371769461" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -258,7 +281,111 @@
       <option name="project" value="LOCAL" />
       <updated>1711940629902</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="models 로보카폴리, makemigrations, migrate">
+      <option name="closed" value="true" />
+      <created>1715568477291</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1715568477291</updated>
+    </task>
+    <task id="LOCAL-00024" summary="admin 로보카폴리,models __str__()">
+      <option name="closed" value="true" />
+      <created>1715569563549</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1715569563549</updated>
+    </task>
+    <task id="LOCAL-00025" summary="views CharacterListView">
+      <option name="closed" value="true" />
+      <created>1715570194861</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1715570194861</updated>
+    </task>
+    <task id="LOCAL-00026" summary="templates character_list.html">
+      <option name="closed" value="true" />
+      <created>1715570253140</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1715570253140</updated>
+    </task>
+    <task id="LOCAL-00027" summary="views CharacterListView, templates character_list.html, urls 로보카폴리:character_list">
+      <option name="closed" value="true" />
+      <created>1716174359736</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1716174359736</updated>
+    </task>
+    <task id="LOCAL-00028" summary="templates character_list.html urls 로보카폴리">
+      <option name="closed" value="true" />
+      <created>1716174871181</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1716174871181</updated>
+    </task>
+    <task id="LOCAL-00029" summary="templates / base.html; 로보카폴리/character_list.html">
+      <option name="closed" value="true" />
+      <created>1716444446408</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1716444446408</updated>
+    </task>
+    <task id="LOCAL-00030" summary="models/get_absolute_url(); views CharacterDetailView; templates character_detail.html; character_list.html&#10;urls 로보카폴리:character_detail pk">
+      <option name="closed" value="true" />
+      <created>1716447134477</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1716447134477</updated>
+    </task>
+    <task id="LOCAL-00031" summary="models/get_absolute_url(); views CharacterDetailView; templates character_detail.html; character_list.html&#10;urls 로보카폴리:character_detail pk">
+      <option name="closed" value="true" />
+      <created>1716447210701</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1716447210701</updated>
+    </task>
+    <task id="LOCAL-00032" summary="views CharacterCreateView; templates character_list.html, character_create.html; urls 로보카폴리:character_create">
+      <option name="closed" value="true" />
+      <created>1716775228483</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1716775228483</updated>
+    </task>
+    <task id="LOCAL-00033" summary="views CharacterUpdateView; templates character_list.html, character_update.html; urls 로보카폴리:character_upadte">
+      <option name="closed" value="true" />
+      <created>1716776426264</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1716776426264</updated>
+    </task>
+    <task id="LOCAL-00034" summary="views CharacterDeleteView; templates character_list.html, character_delete.html; urls 로보카폴리:character_delete">
+      <option name="closed" value="true" />
+      <created>1716778259567</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1716778259567</updated>
+    </task>
+    <task id="LOCAL-00035" summary="models photo; views CharacterCreateView, CharacterUpdateView add 'photo' in fields; templates, enctype=&quot;multipart/form-data&quot;, character.photo None이 아니면, {{ character.photo.url }}; urls MEDIA_URL -&gt; MEDIA_ROOT">
+      <option name="closed" value="true" />
+      <created>1717051572468</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1717051572468</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,8 +403,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="NetworkProgramming" />
-    <MESSAGE value="commit" />
     <MESSAGE value="views say_hello()" />
     <MESSAGE value="urls playground/hello/ -&gt; views say_hello()" />
     <MESSAGE value="urls, views, templates, playground/hello_html/ -&gt; say_hello_html() -&gt; hello.html" />
@@ -291,6 +416,18 @@
     <MESSAGE value="정보를 하나로 묶어서 꺼내오자" />
     <MESSAGE value="urls, views 우거지/ -&gt; &lt;멤버&gt;/ -&gt; show_멤버(멤버)(context -&gt;) -&gt; 멤버.html" />
     <MESSAGE value="이미지 추가, 리드미 내용 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="이미지 추가, 리드미 내용 추가" />
+    <MESSAGE value="models 로보카폴리, makemigrations, migrate" />
+    <MESSAGE value="admin 로보카폴리,models __str__()" />
+    <MESSAGE value="views CharacterListView" />
+    <MESSAGE value="templates character_list.html" />
+    <MESSAGE value="views CharacterListView, templates character_list.html, urls 로보카폴리:character_list" />
+    <MESSAGE value="templates character_list.html urls 로보카폴리" />
+    <MESSAGE value="templates / base.html; 로보카폴리/character_list.html" />
+    <MESSAGE value="models/get_absolute_url(); views CharacterDetailView; templates character_detail.html; character_list.html&#10;urls 로보카폴리:character_detail pk" />
+    <MESSAGE value="views CharacterCreateView; templates character_list.html, character_create.html; urls 로보카폴리:character_create" />
+    <MESSAGE value="views CharacterUpdateView; templates character_list.html, character_update.html; urls 로보카폴리:character_upadte" />
+    <MESSAGE value="views CharacterDeleteView; templates character_list.html, character_delete.html; urls 로보카폴리:character_delete" />
+    <MESSAGE value="models photo; views CharacterCreateView, CharacterUpdateView add 'photo' in fields; templates, enctype=&quot;multipart/form-data&quot;, character.photo None이 아니면, {{ character.photo.url }}; urls MEDIA_URL -&gt; MEDIA_ROOT" />
+    <option name="LAST_COMMIT_MESSAGE" value="models photo; views CharacterCreateView, CharacterUpdateView add 'photo' in fields; templates, enctype=&quot;multipart/form-data&quot;, character.photo None이 아니면, {{ character.photo.url }}; urls MEDIA_URL -&gt; MEDIA_ROOT" />
   </component>
 </project>
